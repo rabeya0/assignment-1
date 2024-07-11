@@ -1,0 +1,118 @@
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .banner{
+     background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+     /* margin: 0; */
+    /* padding: 0; */ 
+    height: 600px;
+  }
+  .banner-content{
+    text-align: center;
+    padding: 30px 20px;
+  }
+  .banner-image{
+    margin-bottom: 32px;
+  }
+  .btn-contact{
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+  }
+.banner-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.banner-container{
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-top: 140px;
+}
+ .banner-titel-container{ 
+    display: flex;  
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 80%; 
+    margin: 0 auto; 
+ }
+
+.banner-colum-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 110px;
+  padding: 48px;
+  background-color: white;
+  margin-bottom: 80px;
+
+}
+.banner-titel-1{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+.banner-1-des{
+  margin-bottom: 32px;
+}
+.btn-banner{
+  border: 1px solid rgb(13, 19, 33);
+  background-color: white;
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+.banner-colum-2{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  margin: 32px 0px;
+  padding: 48px;
+   gap: 40px;
+}
+.banner-titel-2{
+  font-size: 24px;
+  font-weight: 700px;
+  line-height: 36px;
+  text-align: left;
+  margin: 16px 0px;
+}
+.banner-2-des{
+margin-bottom: 32px; 
+height: 220px;
+width: 850px;
+}
+.btn-banner{
+ box-sizing: border-box;
+ border: 1px solid rgb(13, 19, 33);
+ opacity: 0.7;
+ padding: 12px 20px 12px 20px; 
+ /* padding: 0; */
+ background-color: white;
+ font-size: 20px;
+ font-weight: 600;
+}
+.banner-img-2{
+width: 50%;
+height: 208.85px;
+flex-direction: column;
+margin-left: 10px;
+justify-content: space-between;
+}
